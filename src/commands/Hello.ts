@@ -14,7 +14,7 @@ export class Hello extends Command  {
 
     execute(yargs: any): void {
         debug(`Hello ${this.name}`)
-        console.log(`Hello ${chalk.green(this.name)}!!!`)
+        console.log(`Hello ${chalk.green(this.name)} !!!`)
     }
 
 }
