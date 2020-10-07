@@ -9,7 +9,7 @@ const debug = Debug("w:cli:hello");
 })
 export class Hello extends Command  { 
 
-    @CommandArgument({ description: 'Body name', alias: 'n', required: true})
+    @CommandArgument({ description: 'Body name', required: true})
     name: string = '';
 
     execute(yargs: any): void {
